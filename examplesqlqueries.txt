@@ -1,0 +1,4 @@
+ SELECT date, 
+        ROUND(AVG(money_in),2) AS 'avg in', 
+        ROUND(AVG(money_out),2) AS 'avg in' 
+ FROM transactions GROUP BY date;
